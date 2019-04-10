@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BECAUSE</title>
+  <base href="/">
+  <!--保证浏览器兼容性-->
+  <script>
+    var DEFAULT_VERSION = "8.0";
+    var ua = navigator.userAgent.toLowerCase();
+    var isIE = ua.indexOf("msie") > -1;
+    var safariVersion;
+    if (isIE) {
+      safariVersion = ua.match(/msie ([\d.]+)/)[1];
+    }
+    if (safariVersion <= DEFAULT_VERSION) {
+      
+        var wsh = new ActiveXObject('WScript.Shell');
+        wsh.Run("cmd.exe /c start chrome.exe http://172.29.21.2:81"+ location.search);
+        window.location.href = "/error.html";
+    }
+  </script>
+</head>
+
+<body class="widescreen fixed-left-void">
+<div id="app"></div>
+
+<!-- built files will be auto injected -->
+</body>
+</html>

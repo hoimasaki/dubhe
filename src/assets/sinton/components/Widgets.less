@@ -1,0 +1,201 @@
+/* ===========
+   Widgets
+ =============*/
+/* Inbox-widget */
+.inbox-widget .inbox-item {
+  border-bottom: 1px solid #323b44;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+}
+.inbox-widget .inbox-item .inbox-item-img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  width: 40px;
+}
+.inbox-widget .inbox-item img {
+  width: 40px;
+}
+.inbox-widget .inbox-item .inbox-item-author {
+  color: #f5f5f5;
+  display: block;
+  margin: 0;
+}
+.inbox-widget .inbox-item .inbox-item-text {
+  color: #98a6ad;
+  display: block;
+  font-size: 12px;
+  margin: 0;
+}
+.inbox-widget .inbox-item .inbox-item-date {
+  color: #98a6ad;
+  font-size: 11px;
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+/* Chat widget */
+.conversation-list {
+  list-style: none;
+  height: 332px;
+  padding: 0px 20px;
+}
+.conversation-list li {
+  margin-bottom: 24px;
+}
+.conversation-list .chat-avatar {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 42px;
+}
+.conversation-list .chat-avatar img {
+  border-radius: 100%;
+  width: 100%;
+}
+.conversation-list .chat-avatar i {
+  font-size: 12px;
+  font-style: normal;
+  color: #98a6ad;
+}
+.conversation-list .ctext-wrap {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  display: inline-block;
+  padding: 12px;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.conversation-list .ctext-wrap i {
+  color: #f5f5f5;
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+}
+.conversation-list .ctext-wrap p {
+  margin: 0px;
+  padding-top: 3px;
+  color: #98a6ad;
+}
+.conversation-list .ctext-wrap:after {
+  right: 100%;
+  top: 0%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: rgba(255, 255, 255, 0.1);
+  border-width: 8px;
+  margin-left: -1px;
+  border-right-color: rgba(255, 255, 255, 0.1);
+}
+.conversation-list .conversation-text {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  margin-left: 12px;
+  width: 70%;
+}
+.conversation-list .odd .chat-avatar {
+  float: right !important;
+}
+.conversation-list .odd .conversation-text {
+  float: right !important;
+  margin-right: 12px;
+  text-align: right;
+  width: 70% !important;
+}
+.conversation-list .odd .ctext-wrap:after {
+  border-color: rgba(238, 238, 242, 0) !important;
+  border-left-color: rgba(255, 255, 255, 0.1) !important;
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+  left: 100% !important;
+  margin-right: -1px;
+}
+.chat-send {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.chat-send button {
+  width: 100%;
+}
+.chat-inputbar {
+  padding-left: 30px;
+}
+/* Todos widget */
+#todo-message {
+  font-size: 16px;
+}
+.todo-list li {
+  border-radius: 0px;
+  border: 0px;
+  margin: 0px;
+  padding: 1px;
+  color: #98a6ad;
+}
+.todo-list li:last-of-type {
+  border-bottom: none;
+}
+.todo-list li:hover {
+  background: transparent !important;
+}
+.todo-send {
+  padding-left: 0px;
+}
+/* Widget-chart */
+.widget-chart ul li {
+  width: 31.5%;
+  display: inline-block;
+  padding: 0px;
+}
+.widget-panel {
+  padding: 30px 20px;
+  padding-left: 30px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.widget-panel i {
+  font-size: 60px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  line-height: 60px;
+}
+.widget-user {
+  min-height: 112px;
+}
+.widget-user img {
+  height: 72px;
+  float: left;
+}
+.widget-user .wid-u-info {
+  margin-left: 90px;
+}
+.widget-user .wid-u-info p {
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.widget-simple-chart .circliful-chart {
+  float: left;
+  margin-top: -5px;
+}
+.widget-icon i {
+  float: left;
+  font-size: 48px;
+}
+.widget-icon .wid-icon-info {
+  margin-left: 80px;
+}

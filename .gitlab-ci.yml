@@ -1,0 +1,7 @@
+image: centos7-node:6.6
+
+    
+build:
+    script:
+        - npm install --progress=false --registry=http://registry.npm.taobao.org
+        - npm run build:out

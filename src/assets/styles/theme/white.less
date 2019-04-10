@@ -1,0 +1,113 @@
+
+@import './white/_config.less';
+
+#wrapper.white{
+    position:absolute;
+    background: #f5f5f5;
+    color:#6f6f6f;
+
+    .logo{
+        color:#333 !important;
+    }
+
+    .side-menu.left,
+    .footer{
+        background: #fff;
+    }
+
+    .footer{
+        border-top:1px solid #ddd;
+    }
+
+    .left.side-menu #sidebar-menu>ul>li>a i{
+        color: #666 !important;
+    }
+
+    .left.side-menu #sidebar-menu ul>li:hover>a{
+        background:#3bafda !important;
+        color: #fff;
+
+        i{
+            color: #fff !important;
+        }
+    }
+
+    .table > thead > tr > th {
+        border-bottom: 2px solid #f3f3f3;
+    }
+
+    .table > tbody > tr > td,
+    .table > tbody > tr > th {
+        border-top: 1px solid #f3f3f3;
+    }
+
+    .table > tbody > tr:hover{
+      background-color: #f5f5f5 !important;
+    }
+
+    .the-table tbody tr td,
+    .the-table thead tr th{
+        border-bottom: 1px solid #eee;
+    }
+
+    th {
+        color: #666666
+    }
+
+    tbody {
+        color: #797979;
+    }
+
+    .card-box,
+    .nav.nav-tabs + .tab-content{
+        background: #fff;
+    }
+
+    .card-box{
+        border:1px solid #ddd;
+    }
+
+    .page-title-box{
+        box-shadow:none
+    }
+
+    .unread a{
+      color:#666;
+    }
+
+    input.form-control::-webkit-input-placeholder {
+      color: #999;
+    }
+    input.form-control:-moz-placeholder {
+      color: #999;
+    }
+    input.form-control::-moz-placeholder {
+      color: #999;
+    }
+    input.form-control:-ms-input-placeholder {
+      color: #999;
+    }
+
+    .portlet .portlet-heading .portlet-title{
+      color:#666
+    }
+
+    @import './white/nav-tabs.less';
+    @import './white/ivu-table.less';
+    @import './white/ivu-page.less';
+    @import './white/ivu-input.less';
+    @import './white/ivu-radio.less';
+    @import './white/ivu-checkbox.less';
+    @import './white/ivu-date-picker.less';
+    @import './white/ivu-progress.less';
+    @import './white/ivu-dropdown.less';
+    @import './white/form-control.less';
+    @import './white/list-group-item.less';
+    @import './white/panel.less';
+}
+
+.white{
+    h1, h2, h3, h4, h5, h6 {
+        color: #505458;
+    }
+}

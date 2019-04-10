@@ -1,0 +1,97 @@
+
+/* =============
+   Pricing
+============= */
+.pricing-column {
+  position: relative;
+  margin-bottom: 40px;
+}
+.pricing-column .inner-box {
+  position: relative;
+  padding: 0 0 50px;
+}
+.pricing-column .plan-header {
+  position: relative;
+  padding: 30px 20px 25px;
+}
+.pricing-column .plan-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #00b19d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.pricing-column .plan-price {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.pricing-column .plan-duration {
+  font-size: 13px;
+  color: #98a6ad;
+}
+.pricing-column .plan-stats {
+  position: relative;
+  padding: 30px 20px 15px;
+}
+.pricing-column .plan-stats li {
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+.pricing-column .plan-stats li i {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.ribbon {
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+  background: #00b19d;
+  background: linear-gradient(#00b19d 0%, #00b19d 100%);
+  position: absolute;
+  top: 19px;
+  letter-spacing: 1px;
+  left: -21px;
+}
+.ribbon span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid #007e70;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #007e70;
+}
+.ribbon span:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #007e70;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #007e70;
+}
